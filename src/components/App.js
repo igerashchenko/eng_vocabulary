@@ -1,7 +1,13 @@
 import React from 'react';
+import Input from './Input';
+
 
 function App() {
-  return (<div>Test</div>);
+  return (
+  <div>
+  <Input />
+  <button>Start game</button>
+  </div>);
 }
 
 export default App;
