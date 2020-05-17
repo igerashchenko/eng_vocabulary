@@ -37,6 +37,7 @@ function CreateArea(props) {
         />
         <button onClick={submitWord}>Add</button>
       </form>
+      <button class='random'>Randomize</button>
     </div>
   );
 }

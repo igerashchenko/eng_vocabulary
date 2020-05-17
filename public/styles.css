@@ -23,6 +23,7 @@
     font-family: "McLaren", cursive;
     font-weight: 200;
   }
+
   
   footer {
     position: absolute;
@@ -101,3 +102,17 @@
     outline: none;
   }
   
+  .random {
+    position: relative;
+    float: right;
+    background: #f5ba13;
+    color: #ffffff;
+    border-radius: 50%;
+    border: none;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    outline: none;
+    font-size: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
