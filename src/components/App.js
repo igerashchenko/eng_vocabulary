@@ -18,9 +18,9 @@ function App() {
       return prevWords.filter((word, index) => {
         return index !== id;
       });
+      
     });
   }
-
   return (
     <div>
       <Header />
